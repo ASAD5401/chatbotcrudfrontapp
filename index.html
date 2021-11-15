@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Document</title>
+</head>
+<body>
+
+
+<div class="table-container">
+    <div class="table-heading">
+        <center>
+        <h1 class="head">Student Records</h1></center>
+
+    <table class="table" id="table">
+        <thead>
+        <tr id="row">
+            <th>Name</th>
+            <th>Roll No</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Delete</th>  
+            <th>Edit</th>       
+        </tr>
+    </thead>
+    
+    </table>
+</div>
+</div>
+
+<form class="form">
+    <fieldset>
+        <legend>Student Registration</legend>
+        <label>Roll # :</label><input type="text" class="id" id="id" placeholder="Enter student Roll #" required><br><br>
+        <label>Name :</label><input type="text" class="name" id="name" placeholder="Enter student Name" required><br><br>
+        <label>Email :</label><input type="email" class="email" id="email" placeholder="Enter student Email" required><br><br>
+        <label>Phone :</label><input type="text" class="phone" id="phone" placeholder="Enter student Phone" required><br><br>
+        <label>Address :</label><input type="text" class="address" id="address" placeholder="Enter student Address" required><br><br>
+
+    </fieldset>
+</form>
+<button class="button" type="submit" onclick="submit()">SUBMIT</button>
+
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
